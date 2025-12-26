@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="ms">
+<head>
+  <meta charset="UTF-8">
+  <title>Sila Tunggu...</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      margin-top: 20%;
+      background: #111;
+      color: #0f0;
+    }
+    .bar {
+      width: 60%;
+      height: 25px;
+      border: 2px solid #0f0;
+      margin: 20px auto;
+      position: relative;
+    }
+    .fill {
+      width: 99%;
+      height: 100%;
+      background: #0f0;
+      animation: blink 1s infinite;
+    }
+    @keyframes blink {
+      0% {opacity: 1;}
+      50% {opacity: 0.3;}
+      100% {opacity: 1;}
+    }
+  </style>
+</head>
+<body>
+  <h1>System Updating...</h1>
+  <p>Sila tunggu. Jangan tutup browser.</p>
+  <div class="bar">
+    <div class="fill"></div>
+  </div>
+  <p>99% Complete</p>
+  <small>Sabar itu separuh daripada iman 😌</small>
+</body>
+</html>￼Enter
